@@ -1,3 +1,4 @@
+package oops;
 // This is for better understanding the polymorphism concept in interface...
 public class PolymorphismInInterface {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package oops;
 
 // This is short program to understand the concept of inheritance
 public class Inheritance{

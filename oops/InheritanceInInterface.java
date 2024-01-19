@@ -1,3 +1,4 @@
+package oops;
 // This is a example for better understanding the inheritance concept in interface...
 public class InheritanceInInterface {
     public static void main(String[] args) {

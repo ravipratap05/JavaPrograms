@@ -1,3 +1,4 @@
+package oops;
 // This code help to understand the concept of abstract class or abstract method..
 public class Abstraction {
     public static void main(String[] args) {
