@@ -18,6 +18,8 @@ class MyException extends Exception {
         return "This is a Custom Arithmetic Exception.";
     }
 
+    // this is custom exception
+
 }
 
 class Test {
