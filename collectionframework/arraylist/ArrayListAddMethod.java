@@ -1,7 +1,7 @@
 // This code will help you to understand the concepts of Arraylist..
 // Basically ArrayList extends AbstractList implements List.
 
-package collectionframework;
+package collectionframework.arraylist;
 
 import java.util.ArrayList;
 // import java.lang.Thread;
@@ -57,6 +57,28 @@ class Testing {
         printElements();
     }
 
+    void addElementsFromCollection() {
+        System.out.println("Adding the Elements from the collections : ");
+        // Creating first collection
+        ArrayList<Integer> number1 = new ArrayList<>();
+        number1.add(1);
+        number1.add(2);
+        number1.add(3);
+        number1.add(4);
+
+        // Creating second collection
+        ArrayList<Integer> number2 = new ArrayList<>();
+        number2.add(11);
+        number2.add(22);
+        number2.add(33);
+        number2.add(44);
+
+        // Adding both list elements using the addall() method..
+        number1.addAll(number2); // it is a boolean return type method so it return true
+        System.out.println(number1);
+
+    }
+
 }
 
 // Main class..
@@ -70,6 +92,7 @@ public class ArrayListAddMethod {
         // elements..
         obj.printElements(); // This line show all the elements of the ArrayList..
         obj.addMoreElements();
+        obj.addElementsFromCollection();
     }
 
 }
