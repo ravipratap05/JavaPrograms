@@ -13,20 +13,21 @@ class BuiltInException {
     int a = 50;
 
     void cal() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("The given number is : " + a);
-        System.out.print("Enter the number for divide the given number : ");
-        int b = sc.nextInt();
-        // if there are some possibilty of rise any specific exception then use
-        // try-catch block as:--
-        try {
-            int result;
-            result = a / b;
-            System.out.println("Result of division is : " + result);
-        } catch (ArithmeticException e) {
-            System.out.println("Division by zero not allowed");
-        } finally {
-            System.out.println("\nFinished");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("The given number is : " + a);
+            System.out.print("Enter the number for divide the given number : ");
+            int b = sc.nextInt();
+            // if there are some possibilty of rise any specific exception then use
+            // try-catch block as:--
+            try {
+                int result;
+                result = a / b;
+                System.out.println("Result of division is : " + result);
+            } catch (ArithmeticException e) {
+                System.out.println("Division by zero not allowed");
+            } finally {
+                System.out.println("\nFinished");
+            }
         }
 
     }
