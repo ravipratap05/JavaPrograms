@@ -76,6 +76,8 @@ class Testing {
         // Adding both list elements using the addall() method..
         number1.addAll(number2); // it is a boolean return type method so it return true
         System.out.println(number1);
+        // we can add collection with another collection with the addAll() method for
+        // specified index
 
     }
 
