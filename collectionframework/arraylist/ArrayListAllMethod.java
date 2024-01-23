@@ -2,6 +2,8 @@ package collectionframework.arraylist;
 
 import java.util.ArrayList;
 
+// import javax.swing.text.html.HTMLDocument.Iterator;
+
 class AllMethods extends Remove {
     ArrayList<Integer> myarr = new ArrayList<>();
     // Object collect = new ArrayList<>();
@@ -103,14 +105,14 @@ class AllMethods extends Remove {
         int e = myarr.hashCode();
         System.out.println("Hash Code of the List : " + e);
     }
-}
 
-public class ArrayListAllMethod {
-    public static void main(String[] args) {
-        AllMethods am = new AllMethods();
-        am.addElements();
-        am.allmeth();
+    public class ArrayListAllMethod {
+        public static void main(String[] args) {
+            AllMethods am = new AllMethods();
+            am.addElements();
+            am.allmeth();
+
+        }
 
     }
-
 }
