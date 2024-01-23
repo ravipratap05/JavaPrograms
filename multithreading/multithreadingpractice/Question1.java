@@ -12,17 +12,17 @@ class RoomCount extends Thread {
 
     // constructor to initialize the number of rooms
     public RoomCount() {
+    }
+
+    @Override
+    public void run() {
+        int availableRooms = 20;
         int j = 0;
         for (j = 0; j <= 5; j++) {
             rooms = rooms + 1;
             System.out.println("Now Booked rooms are :" + rooms);
         }
         System.out.println("\nRooms lodding...\n");
-    }
-
-    @Override
-    public void run() {
-        int availableRooms = 20;
 
         try {
             sleep(1000);
