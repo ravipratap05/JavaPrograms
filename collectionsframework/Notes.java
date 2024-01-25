@@ -1,4 +1,4 @@
-package collectionframework;
+package collectionsframework;
 
 /* collection frameworks are the groups of object and provide the interfaces and classes for 
 fast manipulation of the data.

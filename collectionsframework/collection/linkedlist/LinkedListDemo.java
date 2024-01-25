@@ -1,6 +1,6 @@
 // This code is help us to understand the concept and additional method of linkedlist..
 
-package collectionframework.linkedlist;
+package collectionsframework.collection.linkedlist;
 
 import java.util.LinkedList;
 
