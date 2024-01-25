@@ -1,6 +1,6 @@
 // This is a demo code to understand the logic of the ListIterator interface==
 
-package collectionsframework.collection.listinterface;
+package collectionsframework.collection.list.listinterface;
 
 // Importing the needed packages--
 import java.util.*;

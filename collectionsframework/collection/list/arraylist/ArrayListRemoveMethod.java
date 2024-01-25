@@ -1,6 +1,6 @@
 // In this code discussing about the arraylist remove or clear method..
 
-package collectionsframework.collection.arraylist;
+package collectionsframework.collection.list.arraylist;
 
 import java.util.ArrayList;
 

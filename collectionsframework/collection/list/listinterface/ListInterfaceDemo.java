@@ -1,6 +1,6 @@
 // describe the list interface demo--
 
-package collectionsframework.collection.listinterface;
+package collectionsframework.collection.list.listinterface;
 
 // importing the basic utility package for implementing the list interface--
 import java.util.*;

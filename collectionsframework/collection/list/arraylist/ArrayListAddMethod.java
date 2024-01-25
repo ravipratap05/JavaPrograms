@@ -1,7 +1,7 @@
 // This code will help you to understand the concepts of Arraylist..
 // Basically ArrayList extends AbstractList implements List.
 
-package collectionsframework.collection.arraylist;
+package collectionsframework.collection.list.arraylist;
 
 import java.util.ArrayList;
 // import java.lang.Thread;
