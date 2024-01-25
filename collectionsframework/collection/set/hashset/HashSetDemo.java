@@ -1,6 +1,6 @@
 // This code help to understand the implementation or the operation of HashSet..
 
-package collectionsframework.collection.set;
+package collectionsframework.collection.set.hashset;
 
 // Importing the needy packages..
 import java.util.*;
