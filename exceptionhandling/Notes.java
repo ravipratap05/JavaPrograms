@@ -23,8 +23,8 @@ class BuiltInException {
                 int result;
                 result = a / b;
                 System.out.println("Result of division is : " + result);
-            } catch (ArithmeticException e) {
-                System.out.println("Division by zero not allowed");
+                // } catch (ArithmeticException e) {
+                // System.out.println("Division by zero not allowed");
             } finally {
                 System.out.println("\nFinished");
             }
