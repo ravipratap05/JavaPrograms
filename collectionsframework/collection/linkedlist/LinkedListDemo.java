@@ -58,5 +58,6 @@ public class LinkedListDemo {
         tl.add();
         // tl.allAditionalMeth();
         tl.iteratorMethod();
+        // System.out.println(tl.list.removeFirstOccurrence(10));
     }
 }
