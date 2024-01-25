@@ -2,6 +2,7 @@
 
 package collectionsframework.collection.linkedlist;
 
+import java.util.Iterator;
 import java.util.LinkedList;
 
 class TestLinkedList {
@@ -39,12 +40,23 @@ class TestLinkedList {
         System.out.println(list);
     }
 
+    void iteratorMethod() {
+        System.out.println("\nUsing iterator interface for the iterate the linkedlist : ");
+        System.out.println("This is the list we have : ");
+        // here we declare the iterator object for iterating the linkedlist..
+        Iterator<Integer> itr = list.iterator();
+        while (itr.hasNext()) {
+            System.out.println("\nThis is next element in the linkedlist : " + itr.next());
+        }
+    }
+
 }
 
 public class LinkedListDemo {
     public static void main(String[] args) {
         TestLinkedList tl = new TestLinkedList();
         tl.add();
-        tl.allAditionalMeth();
+        // tl.allAditionalMeth();
+        tl.iteratorMethod();
     }
 }
