@@ -1,8 +1,8 @@
-package collectionsframework.collection.queue.priorityqueue;
+package collectionsframework.collection.queue;
 
 import java.util.*;
 
-class DemoPQ {
+class DemoPQ1 {
     Queue<Integer> pq = new PriorityQueue<>();
 
     void add() {
@@ -52,11 +52,11 @@ class DemoPQ {
     }
 }
 
-public class PriorityQueueDemo {
+public class DemoPQ {
     public static void main(String[] args) {
-
-        DemoPQ p = new DemoPQ();
+        DemoPQ1 p = new DemoPQ1();
         p.add();
         p.add1();
+
     }
 }
